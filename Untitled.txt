@@ -1,0 +1,6 @@
+1. use :git clone <reponame> to clone the repo in local machine
+2. make the change u want and save the file
+3. use :cd <reponame> 
+       : git status  
+    to see the changes you have made
+4. 
