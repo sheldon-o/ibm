@@ -3,4 +3,23 @@
 3. use :cd <reponame> 
        : git status  
     to see the changes you have made
-4. 
+4. git add [name of revised file]
+
+   git add [name of new file] 
+   
+   use above commands to add files u changed or created 
+5. after adding the file use : git status to see the status
+6. if u r using first time u will need to show the email and name of yours to commit changes
+    git config --global user.email rsannareddy@gmail.com
+
+    git config --global user.name "Ramesh Sannareddy"
+    
+    use both commands
+ 7. git commit -m 'changes made from theia lab environment'   :this is the commit you made
+ 8 . `git push [HTTPS link]`
+
+    You will be prompted by git for your username and password.
+    
+    use tokens instead of passwords .keep token safe;
+ 
+ 9 you are all done .
