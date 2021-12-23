@@ -46,3 +46,18 @@ while(t<10){
   t=t+1;
 }
 
+
+
+function Car(make,model,year){
+  this.make=make;
+  this.model=model;
+  this.year=year;
+  this.getName=function(){
+    return this.make+" "+this.model+" "+this.year;
+  }
+}
+
+var mycar= new Car("honda","civic",2022);// use new keyword to create an object
+
+console.log(mycar.getName());
+
