@@ -60,4 +60,11 @@ function Car(make,model,year){
 var mycar= new Car("honda","civic",2022);// use new keyword to create an object
 
 console.log(mycar.getName());
+Car.prototype.getYear=function(){
+  return this.year
+
+}
+
+console.log(mycar.getYear());
+
 
