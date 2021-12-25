@@ -1,0 +1,15 @@
+task to do
+Create an IBM Cloud application by using one of the available runtimes.
+Sign on to IBM Cloud from the CLI.
+Deploy an application from a local workstation by using the IBM Cloud CLI.
+Test the application with its endpoint after the application is deployed and started.
+
+steps to deploy application using ibm cli:
+1.Login to IBM Cloud with the account
+2   Click IBM Cloud Shell, 
+3   Confirm that the CLI runs correctly by running the following command. 
+       $ibmcloud version
+       
+4 Run the command uuidgen to generate a 16 digit unique number. Copy the first 3 characters to use in naming our application.
+
+       
